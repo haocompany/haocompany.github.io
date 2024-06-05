@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="refresh" content="0; url=/" />
+    <script>
+      // Preserve the path and redirect
+      (function() {
+        var pathname = window.location.pathname;
+        window.location.replace("/" + pathname.substring(1));
+      })();
+    </script>
+  </head>
+  <body></body>
+</html>
